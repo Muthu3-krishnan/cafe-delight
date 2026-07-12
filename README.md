@@ -136,3 +136,4 @@ cafe-demo/
 ## 5. Order statuses
 
 `PENDING → PREPARING → READY → DELIVERED` (or `CANCELLED` at any point). An admin changes status from the Orders table dropdown; the customer sees the same status on **My Orders**, and an email is sent to them on every change.
+"# cafe-delight" 
