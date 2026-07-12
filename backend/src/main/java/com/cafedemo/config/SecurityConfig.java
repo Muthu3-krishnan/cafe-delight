@@ -30,7 +30,7 @@ public class SecurityConfig {
     // Local dev default: http://localhost:3000
     // In production (Render), set CORS_ALLOWED_ORIGINS to your Netlify URL,
     // e.g. https://your-cafe-app.netlify.app
-    @Value("${app.cors.allowed-origins:http://localhost:3000}")
+    @Value("${app.cors.allowed-origins:https://cafe-delighty.netlify.app}")
     private String allowedOrigins;
 
     @Bean
