@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || "https://cafe-delight-backend-3gsa.onrender.com/api",
+  baseURL:"https://cafe-delight-backend-3gsa.onrender.com",
 });
 
 // Attach the JWT (if present) to every outgoing request.
